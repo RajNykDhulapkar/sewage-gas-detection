@@ -36,7 +36,7 @@ unsigned long nextPing = 0;
 // variable to store sensor value
 float sensorValue; // 0 - 1023
 float ppm;
-float threshold = 2000;
+float threshold = 2000; // ppm
 
 int rs = 1,
     enable = 2, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
